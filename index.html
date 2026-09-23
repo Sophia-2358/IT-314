@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Directory</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Directory</h1>
+        <p>This directory contains compiled informatin of Batangas State University Students.</p>
+        <br>
+    </header>  
+     
+    <section class="form-section">
+        <h2>Student Form Section</h2>
+
+        <form id="student-form">
+
+            <label for="Name">Name</label>
+            <input type="text" id="Name" required>
+
+            <label for="insert-program">Program</label>
+            <input type="text" id="insert-program" required>
+
+            <button type="submit">Add Student</button>
+        </form>    
+
+    </section>
+    
+    <section class="display-section">
+
+        <h2>Students</h2>
+
+        <div id="student-list" class="student-grid"></div>
+            
+    </section>  
+
+    <script src="script.js"></script>
+
+</body>
+</html>
