@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic User Interface</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="headerContainer"> <!--for the header-->
+        <h1>Student Directory</h1>
+        <small>Show list of students</small>
+    </section>
+    
+    <section id="formContainer"> <!--for the form section-->
+        <form id ="studentForm">
+            <div class="input-field">
+                <label for="name">Student Name</label>
+                <input type="text" name="name" id="name">
+            </div>     
+            <div class="input-field">
+                <label for="program">Program</label>
+                <input type="text" name="program" id="program">
+            </div>
+            <div>
+                <button>Add Student</button>
+            </div>
+        </form>
+
+    </section>
+
+    <section id="studentList"> <!--for the display of the list section-->
+        <article class="list-item">
+            <h2>Alice N. Borderland</h2>
+            <p>Napapapunta sa Borderland</p>
+            <button>Delete</button>
+        </article>
+        <article class="list-item">
+            <h2>Harry J. Potter</h2>
+            <p>Supercalifragilisticexpialidocious</p>
+            <button>Delete</button>
+        </article>
+        <article class="list-item">
+            <h2>Hermione Jean G. Malfoy</h2>
+            <p>Crush ni Ron Weasley</p>
+            <button>Delete</button>
+        </article>
+        <article class="list-item">
+            <h2>Maria Clara</h2>
+            <p>Kamukha ni Julie Anne San Jose</p>
+            <button>Delete</button>
+        </article>
+        <article class="list-item">
+            <h2>Kapitan T. Iago</h2>
+            <p>Crush ni Maria Clara</p>
+            <button>Delete</button>
+        </article>
+        
+    </section>
+    
+</body>
+</html>
